@@ -1,0 +1,2 @@
+# shockRelationsssssss
+Git denemesi
