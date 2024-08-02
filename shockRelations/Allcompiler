@@ -1,0 +1,13 @@
+#!/bin/sh
+
+source_file="src"
+source_source="hyper.c"
+echo $source_file
+
+oblique_file="oblique"
+oblique_source="exact_functions.c"
+
+common_file="common"
+common_source="displaying_funcs.c"
+
+gcc $source_file/$source_source $oblique_file/$oblique_source $common_file/$common_source -o hyper_calc -lm
